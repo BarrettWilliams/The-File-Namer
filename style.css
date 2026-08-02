@@ -1,4 +1,4 @@
-h1,h2,h3,div{
+h1,h2,h3,h4,div{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,7 +6,15 @@ h1,h2,h3,div{
 
 h1 {
     font-size: 40px;
+    color: red;
 }
+
+h2{
+    color: blue;
+}
+/* p {
+    color: green;
+} */
 
 input {
     height: 20px;
@@ -24,4 +32,13 @@ button:hover {
     font-size: 18px;
     color: white;
     background-color: green;
+}
+
+div {
+    margin: 200px;
+}
+
+h3,h4 {
+    margin: 200px;
+    font-size: 25px;
 }
