@@ -4,6 +4,7 @@ button.addEventListener('click', convert)
 function convert() {
     let originalTitle = document.querySelector('input').value
     let title = originalTitle.toLowerCase()
+    title = title.replace(/[,-]/g, '')
     
     let arr = title.split(' ')
     let newTitle = arr.join('-')
